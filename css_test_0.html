@@ -1,0 +1,14 @@
+<html>
+<style>html,em:nth-child(5){
+ height: 500px
+}
+</style>
+<script>
+function load() {
+ var cssRules =
+window.getMatchedCSSRules(document.documentElement);
+ cssRules[0].selectorText = 'a';
+}
+</script>
+<iframe onload=load()>
+</html>
