@@ -1,14 +1,9 @@
 <html>
-<style>html,em:nth-child(5){
- height: 500px
-}
-</style>
-<script>
-function load() {
- var cssRules =
-window.getMatchedCSSRules(document.documentElement);
- cssRules[0].selectorText = 'a';
-}
-</script>
-<iframe onload=load()>
+
+<body>
+<video controls autoplay>
+  <source src="test_video_01.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</body>
 </html>
